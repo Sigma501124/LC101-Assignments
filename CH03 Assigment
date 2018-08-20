@@ -1,0 +1,8 @@
+clicks = None
+while True:
+    clicks = int(input("How many clicks would you like to rotate?"))
+    
+    diff = clicks % 50
+    temp = 40 + diff
+
+    print("The temperature is", temp)
